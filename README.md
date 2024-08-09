@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🍊 Cloudflare Developer Platform Pricing & Limits
 
-## Getting Started
+![Screenshot of the page](/public/screenshot.png)
 
-First, run the development server:
+Open-source page for all of the prices and limits related to [Cloudflare Developer products](https://developers.cloudflare.com/products/?product-group=Developer+platform) in one place
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+> This is an unofficial list and meant only to structurize pricing & limits info of Cloudflare products in single place for convenience
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Products that included in the page right now:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Compute
+  - [Workers](https://cloudflare-pricing.pages.dev/#Workers)
+  - [Cron Triggers](https://cloudflare-pricing.pages.dev/#Cron-Triggers)
+  - [Durable Objects](https://cloudflare-pricing.pages.dev/#Durable-Objects)
+  - [Pages](https://cloudflare-pricing.pages.dev/#Pages)
+- Storage
+  - [Workers KV](https://cloudflare-pricing.pages.dev/#Workers-KV)
+  - [R2](https://cloudflare-pricing.pages.dev/#R2)
+  - [D1](https://cloudflare-pricing.pages.dev/#D1)
+  - [Queues](https://cloudflare-pricing.pages.dev/#Queues)
+  - [Hyperdrive](https://cloudflare-pricing.pages.dev/#Hyperdrive)
+  - [Workers Analytics Engine](https://cloudflare-pricing.pages.dev/#Workers-Analytics-Engine)
+- Observability
+  - [Workers Logpush](https://cloudflare-pricing.pages.dev/#Workers-Logpush)
+  - [Tail Workers](https://cloudflare-pricing.pages.dev/#Tail-Workers)
+- AI
+  - [Workers AI](https://cloudflare-pricing.pages.dev/#Workers-AI)
+  - [Vectorize](https://cloudflare-pricing.pages.dev/#Vectorize)
+  - [AI Gateway](https://cloudflare-pricing.pages.dev/#AI-Gateway)
+- Media
+  - [Images](https://cloudflare-pricing.pages.dev/#Images)
+  - [Stream](https://cloudflare-pricing.pages.dev/#Stream)
+  - [Calls](https://cloudflare-pricing.pages.dev/#Calls)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Other developer products will be included in later
