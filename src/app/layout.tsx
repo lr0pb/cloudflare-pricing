@@ -6,11 +6,12 @@ import { cn } from "@/lib/utils";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://cloudflare-pricing.pages.dev/"),
   title: "Cloudflare Developer Platform Pricing",
   description:
     "Open source page for Cloudflare Developer Platform Pricing & Limits",
   openGraph: {
-    url: process.env.CF_PAGES_URL,
+    url: "/",
     images: [
       {
         url: "/screenshot.png",
